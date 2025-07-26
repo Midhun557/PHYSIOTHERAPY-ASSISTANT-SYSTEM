@@ -76,10 +76,17 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📸 Snapshots
 
-<img src="Images/block_diagram.jpg" alt="Block Diagram" width="500"/>
-<img src="Images/circuit_diagram.png" alt="Block Diagram" width="500"/>
-<img src="Images/doctors_glove.jpg" alt="Block Diagram" width="500"/>
-<img src="Images/patients_glove.jpg" alt="Block Diagram" width="500"/>=
+### Basic Block Diagram
+<img src="Images/block_diagram.jpg" width="500"/>
+
+### Circuit Diagram
+<img src="Images/circuit_diagram.png" width="500"/>
+
+### Doctor's Glove
+<img src="Images/doctors_glove.jpg" width="300"/>
+
+### Patient's Glove
+<img src="Images/patients_glove.jpg" width="300"/>=
 
 📚 References
 1. Imtiaz et al., *Development of Smart Glove*, IEEE ICCIT, 2023.  
