@@ -1,8 +1,8 @@
-Physiotherapy Assistant System 🧤🤖
+# Physiotherapy Assistant System 🧤🤖
 
 An Arduino-based wireless rehabilitation system that enables real-time mirroring of therapist hand movements to assist patients recovering from strokes, neuromuscular disorders, and hand injuries.
 
-🔍 Overview
+## 🔍 Overview
 
 The project uses two gloves:
 - Doctor’s Glove (Transmitter): Equipped with flex sensors to detect finger bending.
@@ -10,12 +10,12 @@ The project uses two gloves:
 
 Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 
-🎯 Objectives
+## 🎯 Objectives
 - Real-time replication of finger movement for hand rehabilitation.
 - Provide multiple therapy modes.
 - Enable remote, therapist-less, consistent physiotherapy sessions.
 
-🧠 System Modes
+## 🧠 System Modes
 
 | Mode      | Function                                                                 |
 |-----------|--------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 | MOD3      | Full-hand synchronized movement for strength & flexibility.              |
 
 
-🛠️ Hardware Used
+## 🛠️ Hardware Used
 
 | Component             | Quantity | Description                                          |
 |-----------------------|----------|------------------------------------------------------|
@@ -36,13 +36,13 @@ Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 | 1kΩ and 10kΩ Resistors| 6        | Voltage divider for sensor data and bluetooth module |
 | Gloves                | 2        | Base for mounting sensors and motors                 |
 
-⚙️ Software Details
+## ⚙️ Software Details
 
 - Language: C++ (Arduino)
 - Communication: Bluetooth Serial (38400 baud)
 - Commands: `RTMODE`, `MOD1`, `MOD2`, `MOD3`, `REPS 10`, `STOP`
 
-🧪 System Performance
+## 🧪 System Performance
 
 | Parameter            | Result                                |
 |----------------------|---------------------------------------|
@@ -51,35 +51,35 @@ Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 | Servo motion         | Binary: 0° (rest) / 180° (bend)       |
 | Power Supply         | Battery or USB from laptop (stable)   |
 
-📂 File Structure
+## 📂 File Structure
 
 - `Doctor_Glove/doctor_glove_code.ino`: Transmitter glove code.
 - `Patient_Glove/patient_glove_code.ino`: Receiver glove code.
 - `Images/`: Contains **circuit diagram**, **block diagram**, **glove snapshots**, and **working mode visuals** (RTMODE, MOD1, MOD2, MOD3).
 - `PHYSIOTHERAPY_ASSISTANT_SYSTEM.pdf`: Final report.
 
-🧩 Future Improvements
+## 🧩 Future Improvements
 - Add machine learning for adaptive therapy.
 - Include haptic feedback for sensory reinforcement.
 - Expand Bluetooth range and use battery-powered designs.
 - Mobile app integration for monitoring & logs.
 
-🧑‍💻 Team Members
+## 🧑‍💻 Team Members
 
 - Harisankar Prasad
 - Jitya Rejimon 
 - Midhun P S
 - Mohit U 
 
-📄 License
+## 📄 License
 This project is licensed under the [MIT License](LICENSE).
 
-📸 Snapshots
+## 📸 Snapshots
 
-![Basic Block Diagram](Images/block_diagram.jpg)
-![Circuit Diagram](Images/circuit_diagram.png)
-![Doctor's Glove](Images/doctors_glove.jpg)
-![Patient's Glove](Images/patients_glove.jpg)
+<img src="Images/block_diagram.jpg" alt="Block Diagram" width="500"/>
+<img src="Images/circuit_diagram.png" alt="Block Diagram" width="500"/>
+<img src="Images/doctors_glove.jpg" alt="Block Diagram" width="500"/>
+<img src="Images/patients_glove.jpg" alt="Block Diagram" width="500"/>=
 
 📚 References
 1. Imtiaz et al., *Development of Smart Glove*, IEEE ICCIT, 2023.  
