@@ -27,14 +27,14 @@ Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 
 🛠️ Hardware Used
 
-| Component             | Quantity | Description                                     |
-|-----------------------|----------|-------------------------------------------------|
-| Flex Sensors          | 3        | Detect finger bends                             |
-| Servo Motors          | 3        | Mirror finger motion on patient's glove         |
-| Arduino Nano          | 2        | Main controller for each glove                  |
-| Bluetooth HC-05       | 2        | Wireless data transfer                          |
-| 1kΩ and 10kΩ Resistors| 6        | Voltage divider for sensor data                 |
-| Gloves                | 2        | Base for mounting sensors and motors            |
+| Component             | Quantity | Description                                          |
+|-----------------------|----------|------------------------------------------------------|
+| Flex Sensors          | 3        | Detect finger bends                                  |
+| Servo Motors          | 3        | Mirror finger motion on patient's glove              |
+| Arduino Nano          | 2        | Main controller for each glove                       |
+| Bluetooth HC-05       | 2        | Wireless data transfer                               |
+| 1kΩ and 10kΩ Resistors| 6        | Voltage divider for sensor data and bluetooth module |
+| Gloves                | 2        | Base for mounting sensors and motors                 |
 
 ⚙️ Software Details
 
@@ -55,8 +55,7 @@ Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 
 - `Doctor_Glove/doctor_glove_code.ino`: Transmitter glove code.
 - `Patient_Glove/patient_glove_code.ino`: Receiver glove code.
-- `Hardware/`: Circuit diagrams and component list.
-- `Images/`: Photos of gloves and working demonstration.
+- `Images/`: Contains **circuit diagram**, **block diagram**, **glove snapshots**, and **working mode visuals** (RTMODE, MOD1, MOD2, MOD3).
 - `PHYSIOTHERAPY_ASSISTANT_SYSTEM.pdf`: Final report.
 
 🧩 Future Improvements
@@ -78,7 +77,12 @@ This project is licensed under the [MIT License](LICENSE).
 📸 Snapshots
 ![Doctor's Glove](Images/doctors_glove.jpg)
 ![Patient's Glove](Images/patients_glove.jpg)
-![Modes](Images/working_modes.jpg)
+![Mod 1](Images/mode_1.jpg)
+![Mod 2](Images/mode_2.jpg)
+![Mod 3](Images/mode_3.jpg)
+![Realtime Mode](Images/realtime_mode.jpg)
+![Basic Block Diagram](Images/block_diagram.jpg)
+![Circuit Diagram](Images/circuit_diagram.png)
 
 📚 References
 1. Imtiaz et al., *Development of Smart Glove*, IEEE ICCIT, 2023.  
