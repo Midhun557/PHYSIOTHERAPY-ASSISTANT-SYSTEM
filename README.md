@@ -75,14 +75,11 @@ Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 This project is licensed under the [MIT License](LICENSE).
 
 📸 Snapshots
-![Doctor's Glove](Images/doctors_glove.jpg)
-![Patient's Glove](Images/patients_glove.jpg)
-![Mod 1](Images/mode_1.jpg)
-![Mod 2](Images/mode_2.jpg)
-![Mod 3](Images/mode_3.jpg)
-![Realtime Mode](Images/realtime_mode.jpg)
+
 ![Basic Block Diagram](Images/block_diagram.jpg)
 ![Circuit Diagram](Images/circuit_diagram.png)
+![Doctor's Glove](Images/doctors_glove.jpg)
+![Patient's Glove](Images/patients_glove.jpg)
 
 📚 References
 1. Imtiaz et al., *Development of Smart Glove*, IEEE ICCIT, 2023.  
