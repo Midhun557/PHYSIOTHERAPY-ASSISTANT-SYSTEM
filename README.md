@@ -55,7 +55,7 @@ Communication between gloves happens wirelessly using HC-05 Bluetooth modules.
 
 - `Doctor_Glove/doctor_glove_code.ino`: Transmitter glove code.
 - `Patient_Glove/patient_glove_code.ino`: Receiver glove code.
-- `Images/`: Contains **circuit diagram**, **block diagram**, **glove snapshots**, and **working mode visuals** (RTMODE, MOD1, MOD2, MOD3).
+- `Images/`: Contains circuit diagram, block diagram, glove snapshots, and working mode visuals (RTMODE, MOD1, MOD2, MOD3).
 - `PHYSIOTHERAPY_ASSISTANT_SYSTEM.pdf`: Final report.
 
 ## 🧩 Future Improvements
